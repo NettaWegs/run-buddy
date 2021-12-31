@@ -23,6 +23,11 @@ header h1 {
   margin: 0;
   display: inline;
 }
+
+  /*The text-decoration property applies underline, strikethrough, or overline styles to text. 
+  By default, the value is none, so we don't usually have to explicitly tell it not to do this. 
+  With <a> elements, however, the browser automatically applies a blue color and an underline, 
+  and we don't want the links to look like that.*/
 header a {
   text-decoration: none;
   color: #fce138;
@@ -119,4 +124,51 @@ section {
   border: none;
   padding: 10px 20px;
   font-size: 16px;
+}
+
+.trainers {
+  text-align: center;
+}
+
+.trainer {
+  width: 900px;
+  margin: 0 auto 30px auto;
+  background: #024e76;
+  color: #fce138;
+  overflow: auto;
+}
+
+.trainer img {
+  width: 35%;
+  float: left;
+}
+
+.trainer-bio {
+  padding: 35px;
+  float: left;
+  width: 65%;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.trainer-bio h3 {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.trainer-bio h4 {
+  font-weight: lighter;
+  font-size: 26px;
+  margin-bottom: 25px;
+}
+
+.trainer-bio p {
+  font-size: 17px;
+  line-height: 1.3;
 }
