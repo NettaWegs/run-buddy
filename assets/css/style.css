@@ -23,11 +23,6 @@ header h1 {
   margin: 0;
   display: inline;
 }
-
-  /*The text-decoration property applies underline, strikethrough, or overline styles to text. 
-  By default, the value is none, so we don't usually have to explicitly tell it not to do this. 
-  With <a> elements, however, the browser automatically applies a blue color and an underline, 
-  and we don't want the links to look like that.*/
 header a {
   text-decoration: none;
   color: #fce138;
@@ -73,23 +68,6 @@ footer a {
 
 section {
   padding: 60px;
-}
-
-.section-title {
-  font-size: 55px;
-  color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
-  display: inline-block;
-  border-bottom: 3px solid;
-}
-
-.primary-border {
-  border-color: #fce138;
-}
-
-.secondary-border {
-  border-color: #39a6b2;
 }
 
 /* Hero Style Start */
@@ -184,6 +162,23 @@ section {
   font-size: 38px;
 }
 
+.section-title {
+  font-size: 55px;
+  color: #024e76;
+  margin-bottom: 35px;
+  padding: 0 100px 20px 100px;
+  display: inline-block;
+  border-bottom: 3px solid;
+}
+
+.primary-border {
+  border-color: #fce138;
+}
+
+.secondary-border {
+  border-color: #39a6b2;
+}
+
 .trainers {
   text-align: center;
 }
@@ -207,14 +202,6 @@ section {
   width: 65%;
 }
 
-.text-left {
-  text-align: left;
-}
-
-.text-right {
-  text-align: right;
-}
-
 .trainer-bio h3 {
   font-size: 32px;
   margin-bottom: 8px;
@@ -229,6 +216,14 @@ section {
 .trainer-bio p {
   font-size: 17px;
   line-height: 1.3;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
 }
 
 /* REACH OUT STYLES START */
@@ -260,14 +255,15 @@ section {
   font-size: 32px;
 }
 
-.contact-info p, .contact-info address {
+.contact-info p,
+.contact-info address {
   margin: 20px 0;
   line-height: 1.5;
   font-size: 20px;
   font-style: normal;
 }
 
-.contact-info a{
+.contact-info a {
   color: #fce138;
 }
 
